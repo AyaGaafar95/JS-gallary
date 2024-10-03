@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallary.css">
     <title>Document</title>
 </head>
 <body>
     <div class="gallary">
-        <div class="top-photos">
-            <img src="./images/Avatars (1).png" alt="">
-            <img src="./images/Avatars (2).png" alt="">
-            <img src="./images/Avatars (3).png" alt="">
-            <img src="./images/Avatars-Bakar.png" alt="">
+        <div class="photos">
+            <img onclick="main.src = this.src" src="./images/1.jpg" alt="">
+            <!-- <img onclick="main.src = img.src" name="img" src="./images/1.jpg" alt=""> -->
+            <img onclick="main.src = this.src" src="./images/2.jpg" alt="">
+            <img onclick="main.src = this.src"  src="./images/3.jpg" alt="">
+            <img onclick="main.src = this.src" src="./images/4.jpg" alt="">
         </div>
         <div class="main-photo">
-            <img src="./images/Avatars (1).png" alt="">
+            <img src="./images/1.jpg" name="main" alt="">
+        </div>
+        <div class="photos">
+            <img onmouseover="main.src = this.src" src="./images/1.jpg" alt="">
+            <!-- <img onclick="main.src = img.src" name="img" src="./images/1.jpg" alt=""> -->
+            <img onmouseover="main.src = this.src" src="./images/2.jpg" alt="">
+            <img onmouseover="main.src = this.src"  src="./images/3.jpg" alt="">
+            <img onmouseover="main.src = this.src" src="./images/4.jpg" alt="">
         </div>
     </div>
-    
 </body>
 </html>

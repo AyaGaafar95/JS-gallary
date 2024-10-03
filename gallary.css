@@ -1,0 +1,26 @@
+
+.photos {
+    width: 52em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.photos img {
+   width: 10em;
+    transition: all 0.2s ease-in-out;
+    border: 8px solid gray;
+}
+.photos img:hover {
+    border: 8px solid #f6bd60;
+}
+.main-photo{
+    text-align: center;
+}
+.main-photo img{
+    width: 52em;
+    border: 8px solid gray;
+    margin: 10px;
+
+}
+/* ['#f6bd60', '#caf0f8', '#f5cac3', '#ecf39e', '#f4cae0', '#ffa5ab']; */
