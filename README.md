@@ -1,7 +1,7 @@
-i liked this js gallary so much , it's very small and si, simple but when i do this gallary i was  very enjoing  
+I liked this JS gallery so much, it's very small and  simple but when I did this gallery I was  very enjoyed  
 
-it's about change image src by js using  onclick event == > to change main img when i click on any top images ,
+it's about changing image src by js using  onclick event == > to change main img when i click on any top images,
 
-and using onmouseover event that help me to chnge main img src just == > when i hover on any bottom  images,
+and using onmouseover event that helps me to change main img src just == > when I hover on any bottom  images,
 
-i hope you enjoy when you oppen it like me 😊 thank you 
+I hope you enjoy when you open it like me 😊 thank you 
